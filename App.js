@@ -7,13 +7,15 @@
  */
 
 import React from 'react';
-import { Text, View } from 'react-native';
+import { SafeAreaView, Text, View } from 'react-native';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Intro } from './src/pages';
 
 function App(){
   return (
-    <Intro/>
+    <SafeAreaView>
+      <Intro />
+    </SafeAreaView>
     // <Router>
     //   <Routes>
     //     {/* <Route element=" */}
