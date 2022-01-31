@@ -14,7 +14,8 @@ import { Intro } from './src/pages';
 function App(){
   return (
     <SafeAreaView>
-      <Intro />
+      {/* <Intro /> */}
+      <Text>TEST</Text>
     </SafeAreaView>
     // <Router>
     //   <Routes>
